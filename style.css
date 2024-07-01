@@ -1,0 +1,200 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+#menu-superior {
+  background-image: url(imagens/fundo_menu_s.svg);
+  color: antiquewhite;
+  padding: 75px;
+}
+
+#logo {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#titulo {
+  font-size: 40px;
+  margin-left: 155px;
+  margin-top: 75px;
+  text-align: start;
+}
+#descricao {
+  font-size: 20px;
+  margin-left: 155px;
+  margin-top: 30px;
+  text-align: start;
+}
+#menu-infor {
+  background-color: #eaece5;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+.icones {
+  margin: 50px 0px 50px 100px;
+  padding: 15px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  color: #122235;
+  font-size: 20px;
+}
+
+#video {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+#tvideo {
+  color: #247ba0;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 50px;
+}
+
+#textovideo {
+  font-size: 16px;
+  color: #383838;
+}
+
+#video_video {
+  margin: 50px 25px 50px 100px;
+}
+
+#carrossel {
+  background-color: #247ba0;
+  padding: 50px;
+}
+
+#carrosseltitulo {
+  color: #eaece5;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+}
+
+#cards {
+  margin-top: 25px;
+  display: grid;
+  grid-auto-flow: column;
+  
+}
+
+.card {
+  margin: 0px 20px 0px 20px;
+}
+
+#setaesquerda {
+  display: none;
+}
+
+#samantha {
+  display: none;
+}
+
+.seta {
+  margin-top: 130%;
+  cursor: pointer;
+}
+
+.seta:hover {
+  transform: translateY(-7px);
+  transition-duration: 0.5s;
+}
+#titulo-fomulario{
+  text-align: center;
+}
+
+#texto-forme{
+  color: #383838;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 30px 0px 40px 0px;
+}
+input{
+  width: 413px;
+  height: 53px;
+  border: none;
+  border-radius: 8px;
+  background-color: #EAECE5;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+
+button{
+  width: 335px;
+  height: 53px;
+  background-color: #247BA0;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 100px;
+  color: white;
+  font-size: 16px;
+  font-weight:bolder;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #318fb8;
+  color: white;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px #0f143a98 ;
+  transition-duration: 0.3s;
+}
+
+#rodape{
+  background-color: #333;
+  display: grid;
+  grid-auto-flow: column;
+  padding: 30px 0px 30px 100px;
+  color: white;
+}
+
+.rodape-text {
+  margin-top: 30px;
+  font-size: 10px;
+}
+
+.ul {
+  list-style: none;
+  font-size: 12px;
+}
+
+.li{
+  margin-bottom: 8px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.a:hover{
+  color:#247BA0;
+  transform: translateY(-1)
+  
+}
+
+.trabalhe{
+  font-size: 12px;
+}
+
+#final{
+  background-color: #333;
+}
+
+hr{
+  margin-left:100px;
+  margin-right: 100px;
+}
+.termos{
+  color: white;
+  padding: 40px 0px 60px 100px;
+  font-size: 18px;
+  
+}

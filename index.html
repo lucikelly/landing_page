@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Escola DNC</title>
+  
+</head>
+<body>
+  <!--MENU SUPERIOR-->
+    <div id="menu-superior">
+      <a href="https://www.escoladnc.com.br/"><img src="./imagens/logo.svg" id="logo" alt="Erro"></a>
+      <script src="index.js"></script>
+      <h1 id="titulo">
+        Dê os primeiros passos da <br> sua carreira em Tecnologia
+      </h1>
+      <p id="descricao">
+        Inscreva-se no curso gratuito de Introdução à <br> Tecnologia 
+        da DNC School e aprenda os principais <br>fundamentos para 
+        construir experiências efetivas.
+      </p>
+    </div>
+    <!--MENU INFORMACIONAL-->
+    <div id="menu-infor">
+      
+      <p class="text"><img src="imagens/icons/certificado.svg" class="icones" id="certificacao" alt=""> Certificado de conclusão</p>
+      <p class="text"><img src="imagens/icons/horas.svg" class="icones" id="relogio" alt=""> 4 horas de conteúdo</p>
+      <p class="text"><img src="imagens/icons/gravadas.svg" class="icones" id="camera" alt="">Aulas online gravadas</p>
+
+    </div>
+
+    <!--SEÇÃO VIDEO-->
+    <div id="video">
+      <iframe id="video_video" width="502" height="283" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="DNC - A escola inovadora que forma profissionais de alta perfomance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div>
+        <h1 id="tvideo">
+          Aprenda com especialistas e <br> comece seu primeiro projeto
+        </h1>
+        <br><br>
+        <p id="textovideo">
+          Conheça o processo de desenvolvimento e entenda como utilizar <br> 
+          os principais métodos e ferramentas da área para resolver <br>
+          problemas complexos. <br><br>
+
+          Conquiste seu certificado e desenvolva um projeto prático para <br> 
+          aplicar seus conhecimentos.
+        </p>
+      </div>
+    </div>
+
+    <!--Carrossel-->
+    <div id="carrossel">
+      <h1 id="carrosseltitulo">
+        Mais de 500 alunos já iniciaram seus estudos
+      </h1>
+      <div id="cards">
+        <img id="setaesquerda" onclick="RolarEsquerda()" class="seta" src="imagens/icons/setaesquerda.svg" alt="">
+        <img id="bruna" class="card" src="imagens/cards/card1.svg" alt="">
+        <img id="leonardo" class="card" src="imagens/cards/card2.svg" alt="">
+        <img id="samantha" class="card" src="imagens/cards/card3.svg" alt="">
+        <img id="setadireita" onclick="RolarDireita()" class="seta"  src="imagens/icons/setadireita.svg" alt="">
+
+      </div>
+    </div>
+
+    <!--Formulário de inscrição-->
+
+    <div id="titulo-fomulario">
+      <h1 id="texto-forme">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+        <form id="form" action="https://api.sheetmonkey.io/form/7pNSmQnW3bLGXBPpiYpRoc" method="POST">
+          <input type="text" placeholder="Nome" name="Nome" required/> <br>
+          <input type="email" placeholder="E-mail" name="Email" required/> <br>
+          <input type="number" placeholder="Telefone" name="Phone" /> <br>
+          <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time"/>
+          <button type="submit">Acesse a ementa grátis</button>
+        </form>
+      
+    </div>
+
+   <div id="rodape">
+    <div>
+      <img src="imagens/logo_rodape.png" alt=""> <br>
+      <p class="rodape-text">
+        © 2024 DTC Treinamentos & <br>
+        Consultoria LTDA |CNPJ: <br> 
+        27.995.577/0001-37 |R. Justino Cobra, <br> 
+        61 – Vila Ema | São José dos Campos <br>
+        – SP | CEP 12243-030
+        </p>
+    </div>
+    
+
+    <div id="lista">
+      <h2>Escolas</h2><br>
+      <ul class="ul">
+        <li class="li"><a class="a" href="https://www.escoladnc.com.br/#areas">Dados</a></li> 
+        <li class="li"><a class="a" href="https://www.escoladnc.com.br/#areas">Projetos</a></li> 
+        <li class="li"><a class="a" href="https://www.escoladnc.com.br/#areas">Marketing</a> </li>
+        <li class="li"><a class="a" href="https://www.escoladnc.com.br/#areas">Produto</a></li> 
+        <li class="li"><a class="a" href="https://www.escoladnc.com.br/#areas">Tecnologia</a> </li>
+      </ul>
+    </div>
+    <div>
+      <h2>Sobre a DNC</h2><br>
+      <p class="trabalhe"><a class="a" href="https://escoladnc.inhire.app/vagas">Trabalhe Conosco</a></p>
+
+    </div>
+   </div>
+  <div id="final">
+    <hr>
+   <P class="termos">Termos de Uso e Políticas de Privacidade</P>
+  </div>
+   
+
+    <script src="index.js"></script>
+</body>
+</html>
